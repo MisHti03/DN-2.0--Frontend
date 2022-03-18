@@ -4,11 +4,12 @@
     box-sizing:border-box
 }
 body{
-    right:0%;
+    right: 0%;
     overflow-x: hidden;
     font-family: 'speedee',sans-serif;
     cursor:url(https://mcdindia.com/wp-content/uploads/2020/11/mc-cursor-2.png),auto;
 }
+
 ::-webkit-scrollbar {
     width:5px;
   }
