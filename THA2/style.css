@@ -1,0 +1,659 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing:border-box
+}
+body{
+    right:0%;
+    overflow-x: hidden;
+    font-family: 'speedee',sans-serif;
+    cursor:url(https://mcdindia.com/wp-content/uploads/2020/11/mc-cursor-2.png),auto;
+}
+::-webkit-scrollbar {
+    width:5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:#DB0007; 
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:red; 
+  }
+
+
+
+#right{
+    background-image: url(https://mcdindia.com/wp-content/uploads/2022/02/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height:650px;
+    width:750px;
+    right: 0%;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+}
+    
+
+
+
+
+.nav>a{
+    margin-left:60px;
+    color: black;
+    margin-top: 5%;
+}
+
+.st{
+    background-color:#FFBC0D;
+    width:100%;
+    height:650px;
+    margin-top:0%;
+    margin-left:0%;
+}  
+
+.main{
+    position: relative;
+    opacity: 1;
+    left:0;
+    font-size:38px;
+    margin-inline-start: 100px;
+    margin-top: 8%;
+}
+
+.mlogo>img{
+    background-color: rgb(212, 4, 4);
+    padding:7px;
+    margin:5px;
+    margin-inline-start: 100px;
+    border-radius: 3px;
+    margin-top: 2%;
+    
+}
+.stroke{
+    color:transparent;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:red;
+}
+.bts{
+    display:flex;
+    margin-left:7.5%;
+    z-index:2;
+    cursor:pointer
+}
+.bts .arrow2{
+    margin-top:2%;
+    color:red;
+    margin-left: 20px;
+    width:60px;
+    height:60px;
+    border-radius: 100%;
+    background: #fff;
+    padding: 14px 22px;
+}   
+
+.bts .arrow1{
+    margin-top:2.5%;
+    color:red;
+    border:2px solid red;
+    border-radius: 100%;
+    width:48px;
+    height:48px;
+    padding:6px 12px;
+
+}
+
+
+
+#tabs_sidebar{
+    background-color: rgb(255,255,255);
+    height: 500px;
+    width: 100%;
+    margin-left: 50px;
+
+}
+#form4{
+    margin-top: 50px;
+    margin-left: 30px; 
+    width: 50%;
+}
+#form4>button{
+    margin-left: 18px;
+    height: 35px;
+    font-size: 16px;
+    border: rgb(255,255,255);
+    color: rgb(99, 96, 96);background-color: white;
+}
+#form4>button:hover{
+        text-decoration: underline;
+        color:rgb(221,53,58);
+        
+}  
+#script_h1{
+    padding: 20px 10px;
+    font-size:30px;
+    background-color: #FFBC0D;
+    margin-right:25%;
+
+}
+
+#script_h2{
+    color:#B69A81;
+    font-size:20px;
+    margin-top: 25px;
+}
+#script_p{
+    font-size:16px;
+    margin-top:25px;
+
+}
+#script_h3{
+    font-size:16px;
+    margin-top: 25px;
+}
+#script_h22{
+    font-size:18px;
+    margin-top:20px;
+    color: #DB0007;
+}
+#script_pp{
+    margin-top: 5px;
+    margin-bottom:40px;
+}
+.tabs_content{
+    margin-left: 50px;
+    display: flex;
+    flex-shrink: 0;
+} 
+
+.box{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    border-radius: 100px;
+    background-color: rgb(219,0,7);
+}
+.box h3{
+    margin-top:20px;
+    margin-left: 10%;
+    font-size: 18px;
+    color: white;
+}
+.box1{
+    width: 60%;
+    height: 430px;
+   
+}
+
+
+
+
+
+#meal{
+    width: 100%;
+    height: 700px;  
+    margin-top: 100px;
+    margin-left: 50px;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x.jpg");
+    background-size: 100% 100%;
+    display: flex;
+
+}
+
+#meal .left img{
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 20%;
+}
+#meal .left video{
+        margin-left: 50px;
+}
+
+#meal .left h3{
+        margin-left: 60px;
+        color:red
+    
+}
+#download{
+    margin-top:5%;
+    width: 90%;
+    height: 7%;
+    margin: auto;
+    display: flex;
+}
+
+#download .img1{
+    width:50%;
+    background-image:url(https://mcdindia.com/wp-content/uploads/2020/05/app-store2x.png);
+    background-size: 100% 100%;
+    margin-left: 30px;
+
+}
+
+#download .img2{
+    width:50%;
+    background-image:url("https://mcdindia.com/wp-content/uploads/2020/05/play-store2x.png");
+    background-size: 100% 100%;
+    margin-left: 10px;
+    
+}
+
+#meal .right{
+    margin-left: 30px;
+    width: 80%;
+    height: 400px; 
+    
+}
+#row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    width: 33.33%;
+    padding: 0 60px;
+
+}
+
+.card-img>h3{
+    text-align:center
+
+}
+
+#row2{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.hleft{
+    margin-left: 100px;   
+    height: 100%;
+    background-color: white;
+  
+  }
+#hppy{
+    height:545px;
+    width: 100%;
+    background-color: rgb(254,187,13);
+    display: flex;
+
+}
+.t{
+    width: 50%;
+    
+}
+.tags{
+    background-color: white;
+    margin-top: 10px;
+}
+.hleft{
+        margin-left: 100px;       
+        height: 100%;
+}
+.hleft img{
+    margin-top: 90px;
+}
+.hleft h1{
+    font-size: 47px;
+}
+.hleft h3{
+    color: rgb(220,5,12);
+    font-size: 18px;
+}
+.hleft p{
+    font-size: 18px;
+}
+
+.hright {
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.tabs{  
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.tabs img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+.tabs button{
+    width: 100%;
+    height: 15%;
+    color: white; 
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: rgb(232,76,13);
+}
+
+#res{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;  
+    display: flex;
+}
+#res h5{
+    margin-bottom: 25px;
+    font-size: 34px;
+    margin-top:50px;
+}
+dialog{
+    background-color:rgb(212, 4, 4);
+    font-size:18px;
+    color:#f6f6f6;
+    margin-left:34%;
+    border: 2px solid rgb(212, 4, 4);
+    padding:15px;
+    border-radius:25px;
+}
+.rleft{
+    margin-top:4%;
+    width:40%; 
+    margin-left:10%;
+    background-color: rgb(253,253,253);
+} 
+.Ryt{
+    width:100%;
+    display: flex;
+    background-image:url(https://www.mcdonalds.com/content/dam/usa/nfl/documents/family-fun-hub/Virtual-Backgrounds_Confetti.jpg);
+}
+.Ryt img{
+    margin-top:10%;
+    margin-left:10%;
+}
+#s{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(255,188,13);
+    border-radius: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#delivery{
+    width: 100%;
+    height: 700px;   
+    background-color: rgb(244,187,38);
+    display: flex;
+}
+
+.dleft{
+    width: 55%;
+    height: 100%;
+    margin-top: 50px;
+    background-color: white;
+    height: 750px;
+
+}
+
+.dleft img{
+
+margin-top: 40px;
+margin-left: 100px;
+}
+
+
+.dleft h1{
+    margin-left: 100px;
+    font-size: 44px;
+}
+.dleft h4{
+    margin-left: 100px;
+    color:gray
+}
+.dleft p{
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.dleft button{
+    margin-left: 100px;
+    background-color: red;
+    width: 30%;
+    border-radius: 100px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+}
+#logo{
+    display: flex;
+    margin-top:30px;
+   
+
+}
+#logo h4{
+    color:black;
+   
+}
+#logo img{
+   margin: 0 10px ; 
+}
+
+.dright img{
+    margin:25% 20%;
+}
+
+#news{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    background-image: url(https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x-659x414.jpg);
+    background-size: 100% 100%;
+}
+
+.nfrst{
+    display: flex;
+}
+.nfrst img{
+    margin-left: 10%;
+    margin-top: 10%
+}
+#news header{
+    font-size:35px;
+    margin-left:10%;
+}
+#a1{
+    width:31%;
+    background-color: #EBEBEC;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding:35px 30px;
+    margin-left: -100px;
+
+}
+#a1 h1{
+    font-size: 30px;
+}
+#a1 p{
+    font-size: 15px;
+}
+#bcf{
+    margin-top: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:800px;
+    height:500px;
+    margin-left: 10%;
+    background-image: url(https://i.pinimg.com/originals/c0/de/bb/c0debb3912d308535ad9110ce930545e.jpg);
+}
+#news1{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+#a2{
+    margin-top:5%;
+    width: 80%; 
+    margin-left: 20px;
+    background-color: #FFBC0D;
+}
+#a2 img{
+    width: 100%;
+    height: 50%
+}
+
+#a2 button{
+    background-color: red;
+    border: 2px solid red;
+    transform: translateY(-17px);
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    color: white    ;
+}
+#a2 p{
+    font-size: 14px;
+    margin-top:-10px;
+}
+#a2 a{
+    color:Red;
+}
+.id2{
+    width: 100%;
+    height: 100%;
+    margin-left:10%;
+    margin-top: 5%;
+}
+
+.id2 h4{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.id2 p{
+    margin-top: 9px;
+    margin-bottom:9px;
+}
+
+#insta{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.instal{
+    background-color: rgb(0,183,173);
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+
+.instal>h1{
+    margin-top: 150px;
+    font-size: 60px;
+}
+.instal>p{
+    font-size: 30px;
+    margin-top: 5%;
+}
+.instal>button{
+    margin-top:5%;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgb(255,188,13);
+    border: 2px solid rgb(255,188,13);
+}
+.instal>button:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid #00b7ad;
+}
+
+
+#instar{
+    width: 65%;
+   background-color: rgb(246,246,246);
+}
+.scr{  
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+    display: flex;
+}
+.scr img{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#footer{
+    width: 100%;
+    height: 760px;    
+    display: flex;
+    border-radius: 50px;
+}
+#fleft{
+    width: 50%;
+    height:760px;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/01/asset-12x.jpg");
+    border-radius: 1250px;
+}
+
+#foot_img1{
+    margin-top:20%;
+    margin-left:20%;
+    
+}
+#foot_img1 h1{
+    font-size: 44px;
+}
+
+#foot_img1 p{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#in{
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    border: 5px solid white;
+    background-color: white;
+}
+#b{
+    background-color: #DB0007;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+
+#foot_img2{
+    width: 50%;
+  
+
+}
+#for{
+    height: 100px;
+    display: flex;
+    margin-left:0%;
+    margin-top:10%;
+}
+.for_img{
+    height:40%;
+    margin-left:20px;
+}
+
+#foot_last{
+    width: 100%;
+    height: 200px;
+    
+}
