@@ -92,9 +92,8 @@ body{
     z-index:2;
     cursor:pointer
 }
-.bts .arrow2{
-    margin-top:2%;
-    color:red;
+.bts .arrow2 img{
+    margin-top:35%;
     margin-left: 20px;
     width:60px;
     height:60px;
@@ -103,9 +102,8 @@ body{
     padding: 14px 22px;
 }   
 
-.bts .arrow1{
-    margin-top:2.5%;
-    color:red;
+.bts .arrow1 img{
+    margin-top:65%;
     border:2px solid red;
     border-radius: 100%;
     width:48px;
@@ -656,5 +654,6 @@ margin-left: 100px;
 #foot_last{
     width: 100%;
     height: 200px;
+    left:30%
     
 }
